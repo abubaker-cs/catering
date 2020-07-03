@@ -14,7 +14,7 @@
         <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-2 large-up-3 contact_info">
 
             <div class="cell office_location">
-                <h5>Libya (Head Office)</h5>
+                <h5 class="branch-name">Libya (Head Office)</h5>
                 <span><i class="fas fa-mobile"></i> +218-92-220-1133</span><br>
                 <span><i class="fas fa-mobile"></i> +218-91-220-1133</span><br>
                 <span><i class="fas fa-fax"></i> +218-61-474-1810</span><br>
@@ -22,7 +22,7 @@
             </div>
 
             <div class="cell office_location">
-                <h5>U.A.E (Branch)</h5>
+                <h5 class="branch-name">U.A.E (Branch)</h5>
                 <span><i class="fas fa-mobile"></i> +971-4-259-4204</span><br>
                 <span><i class="fas fa-fax"></i> +971-4-259-4673</span><br>
                 <span>Al Ethihad Bldg, Flat #404,<br> 4th Floor, Port Saeed<br>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="cell office_location">
-                <h5>U.K. (Branch)</h5>
+                <h5 class="branch-name">U.K. (Branch)</h5>
                 <span><i class="fas fa-mobile"></i> +44 (0) 7971868129</span><br>
                 <span>Maple Cottage, Hornby,<br> Northallerton, DL6 2JQ.</span>
             </div>
@@ -42,15 +42,15 @@
         <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-2 large-up-2 contact_info">
 
             <div class="cell office_location">
-                <h5>Chairman & General Manager </h5>
-                <b>Naser thabet</b><br>
+                <h5 class="person-position">Chairman & General Manager </h5>
+                <b class="person-name">Naser thabet</b><br>
                 <span><i class="fas fa-envelope"></i> <a href="mailto:thabet@aoslibya.com" target="_top">thabet@aoslibya.com</a></span><br>
             </div>
 
 
             <div class="cell office_location">
-                <h5>Executive Manager</h5>
-                <b>W.Bassili</b><br>
+                <h5 class="person-position">Executive Manager</h5>
+                <b class="person-name">W.Bassili</b><br>
                 <span><i class="fas fa-envelope"></i> <a href="mailto:bassili@aoslibya.com" target="_top">bassili@aoslibya.com</a></span><br>
             </div>
 
@@ -60,7 +60,7 @@
 
     <section class="contact_map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.8385607169757!2d20.11336909210705!3d32.07438284831972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13831c99a090a9d7%3A0xe2b6953cdeb9b332!2sBohdema%2C%20Benghazi%2C%20Libya!5e0!3m2!1sen!2s!4v1574796488947!5m2!1sen!2s"
-                    width="1100" height="256" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    width="1100" height="256" style="border:0" allowfullscreen></iframe>
     </section>
 
     <div class="grid-container">
@@ -74,17 +74,13 @@
             <div class="row">
                 <div class="medium-6 columns form-group" id="name-field">
                     <label for="form-name" class="col-lg-2 control-label">
-                        <div class="col-lg-10">
                             <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Full Name" required>
-                        </div>
                     </label>
                 </div>
 
                 <div class="medium-6 columns form-group" id="email-field">
                     <label for="form-email" class="col-lg-2 control-label">
-                        <div class="col-lg-10">
                             <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email" required>
-                        </div>
                     </label>
                 </div>
             </div>
@@ -94,9 +90,7 @@
             <div class="cell">
                 <div class="form-group" id="subject-field">
                     <label for="form-subject" class="control-label">
-                        <div class="col-lg-10">
                             <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="Subject" required>
-                        </div>
                     </label>
                 </div>
             </div>
@@ -106,18 +100,14 @@
             <div class="cell">
                 <div class="form-group" id="message-field">
                     <label for="form-message" class="control-label">
-                        <div class="col-lg-10">
                             <textarea class="form-control" rows="6" id="form-message" name="form-message" placeholder="Your Message" style="min-height:200px;height:100%;width:100%;" required></textarea>
-                        </div>
                     </label>
                 </div>
             </div>
             <!-- Your Message -->
 
             <div class="text-center form-group">
-                <div class="">
                     <button type="submit" class="button hvr-grow">Send Message</button>
-                </div>
             </div>
         </form>
 
