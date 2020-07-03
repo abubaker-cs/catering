@@ -10,9 +10,8 @@
         <!-- TODO: Updated Description for FAQs -->
         <section class="block-intro">
             <h2 class="section-heading">FAQs</h2>
-            <p class="section-description lead"><?php echo COMPANY_NAME; ?> is a corporate catering company
-                which specializes in onshore and offshore hospitality services for both local and multinational Oil &
-                Gas Companies operating in Libya.</p>
+            <p class="section-description lead">At <?php echo COMPANY_NAME; ?> we have one purpose, to provide your workforce safe, healthy and delicious food. We always aim to deliver outstanding service and the high standards our customers have come to expect from us, this is achieved by employing a highly talented team with great culinary and hospitality skills.
+            </p>
         </section>
 
 

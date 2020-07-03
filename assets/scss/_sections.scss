@@ -1,3 +1,14 @@
+#sec-hero{
+  //position: relative;
+  //// height: 95vh;
+  //// background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  //background-position: top;
+  //background-size: cover;
+  // -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  // clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+
 #sec-about,
 #sec-services{
   img{
@@ -16,6 +27,14 @@
 
 // Message from CEO
 #sec-ceo{
+
+  //position: relative;
+  //// height: 95vh;
+  //background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  //background-position: top;
+  //background-size: cover;
+  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  //clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 
   .ceo-name {
 
@@ -46,12 +65,25 @@
 
 // Why us?
 #sec-why{
-
+  //position: relative;
+  //// height: 95vh;
+  //background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  //background-position: top;
+  //background-size: cover;
+  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  //clip-path: polygon(0 10%, 100% 0, 100% 85%, 0 100%);
+  //background-color: red !important;
 }
 
 // HSEQ
 #sec-hseq{
   background-color: #f1f1f1;
+
+  .block-closing-with_text{
+    padding: 3.5rem 3.5rem;
+    text-align: center;
+  }
+
 }
 
 // Being Different
@@ -83,8 +115,8 @@
     .accordion-title{}
 
     .accordion-content{
-      background-color: darkslategrey;
-      color: #f1f1f1;
+      // background-color: darkslategrey;
+      // color: #f1f1f1;
     }
   }
 
