@@ -37,7 +37,7 @@
 <?php include("sections/contact.php"); ?>
 
 <!-- Foot -->
-<?php include("blocks/foot.php"); ?>
+<?php include("blocks/footer.php"); ?>
 
 <!-- Footer -->
 <?php include("footer.php"); ?>
