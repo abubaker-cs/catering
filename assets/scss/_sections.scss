@@ -70,6 +70,24 @@
 // FAQs
 #sec-faqs {
   background-color: #f1f1f1;
+
+  .accordion{
+    .accordion-item{
+      a{}
+      a:hover{
+        background-color: #0c3d5d;
+        color: white;
+      }
+    }
+
+    .accordion-title{}
+
+    .accordion-content{
+      background-color: darkslategrey;
+      color: #f1f1f1;
+    }
+  }
+
 }
 
 // Contact
