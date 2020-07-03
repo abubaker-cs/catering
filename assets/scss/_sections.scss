@@ -154,9 +154,23 @@
 
   }
 
+  .footer_topper{
+    //width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 100%;
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
 }
 
-// Footer
+/*==============================
+=            Footer            =
+==============================*/
 #sec-foot{
 
 }

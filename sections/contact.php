@@ -3,7 +3,7 @@
 
 </div>
 
-<div id="sec-contact" class="sec-container">
+<div id="sec-contact" class="sec-contact-container">
     <div class="grid-container">
 
         <section class="block-intro">
@@ -66,19 +66,19 @@
     <div class="grid-container">
 
         <section class="block-intro">
-            <h2 class="section-heading">Contact Form</h2>
+            <h3 class="section-heading">Enquiry Form</h3>
         </section>
 
         <form action="process.php" id="contact-form" class="" role="form" method="post">
 
-            <div class="row">
-                <div class="medium-6 columns form-group" id="name-field">
+            <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-2">
+                <div class="cell form-group" id="name-field">
                     <label for="form-name" class="col-lg-2 control-label">
                             <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Full Name" required>
                     </label>
                 </div>
 
-                <div class="medium-6 columns form-group" id="email-field">
+                <div class="cell form-group" id="email-field">
                     <label for="form-email" class="col-lg-2 control-label">
                             <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email" required>
                     </label>
@@ -114,5 +114,7 @@
     </div>
     <!-- row columns base -->
 
+
+    <img class="footer_topper" src="images/footer-art-blue.svg" alt="Footer Topper">
 </div><!-- /#sec-contact .sec-container -->
 
