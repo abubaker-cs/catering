@@ -9,7 +9,7 @@
 
         <section class="block-intro">
             <h2 class="section-heading">Our Services</h2>
-            <p class="section-description lead">Lamasat elKheir for Catering Services is a corporate catering company
+            <p class="section-description lead"><?php echo COMPANY_NAME; ?> is a corporate catering company
                 which specializes in onshore and offshore hospitality services for both local and multinational Oil &
                 Gas Companies operating in Libya.</p>
         </section>
@@ -32,7 +32,7 @@
             <div class="cell">
                 <img src="images/statements/mission.jpg" alt="Corporate Catering" class="thumbnail">
                 <h4 class="card-title">Corporate Catering</h4>
-                <p class="card-description">At Lamasat elKheir for Catering Services, our mission is to become a leading
+                <p class="card-description">At <?php echo COMPANY_NAME; ?>, our mission is to become a leading
                     provider of great culinary delights, support and care.</p>
                 <div class="button_reveal-in_card">
                     <button class="button" data-open="popup-corporate_catering">Read More</button>
@@ -97,7 +97,7 @@
 
 
         <section class="block-closing-with_text">
-            <p class="lead">With assistance from our Logistics division, Lamasat elKheir for Catering Services can
+            <p class="lead">With assistance from our Logistics division, <?php echo COMPANY_NAME; ?> can
                 ensure you that its resources can be deployed rapidly, professionally and safely. Our experience and
                 competitive capabilities allow us to provide
                 a level of service that is second to none in the Libyan Oil and Gas industries. </p>
@@ -114,19 +114,19 @@
 
                 <h3>Our Services</h3>
                 <img src="images/statements/statements_popup.jpg" alt="" class="thumbnail">
-                <p>At Lamasat elKheir for Catering Services, we are specialized in providing corporate catering services
+                <p>At <?php echo COMPANY_NAME; ?>, we are specialized in providing corporate catering services
                     for crews on rig sites. Our catering staff have years of experience, working in the Libyan Oil and
                     Gas industries. Using
                     a combination of on-site kitchens, food storage facilities and our own equipment, we serve hot,
                     freshly prepared meals to offshore and onshore crews.</p>
 
-                <p>Lamasat elKheir for Catering Services uses fresh and nutritious ingredients, sourced from selected
+                <p><?php echo COMPANY_NAME; ?> uses fresh and nutritious ingredients, sourced from selected
                     suppliers, and work closely with you, while strictly adhering to all site regulations, to develop a
                     tailored solution to meet
                     your needs.</p>
 
                 <p>We provide almost all kind of the corporate catering services for the Libyan Oil and Gas Industries.
-                    As a professional Corporate Catering services provider, at Lamasat elKheir for Catering Services our
+                    As a professional Corporate Catering services provider, at <?php echo COMPANY_NAME; ?> our
                     corporate philosophy
                     is to be an integral part of your team. </p>
 
@@ -136,7 +136,7 @@
                     we keep it clean and simple. Our best quality food is locally sourced, freshly prepared and it is
                     always delicious. </p>
 
-                <p>Lamasat elKheir for Catering Services can offer:</p>
+                <p><?php echo COMPANY_NAME; ?> can offer:</p>
                 <ul>
                     <li>Breakfast, lunch and dinner</li>
                     <li>Corporate BBQs / Buffets</li>

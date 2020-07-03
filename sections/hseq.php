@@ -9,7 +9,7 @@
 
         <section class="block-intro">
             <h2 class="section-heading">HSEQ Policies</h2>
-            <p class="section-description lead">Lamasat elKheir for Catering Services is a corporate catering company
+            <p class="section-description lead"><?php echo COMPANY_NAME; ?> is a corporate catering company
                 which specializes in onshore and offshore hospitality services for both local and multinational Oil &
                 Gas Companies operating in Libya.</p>
         </section>
@@ -32,7 +32,7 @@
             <div class="cell">
                 <img src="images/statements/mission.jpg" alt="Safety Policies" class="thumbnail">
                 <h4 class="card-title">Safety</h4>
-                <p class="card-description">At Lamasat elKheir for Catering Services, our mission is to become a leading
+                <p class="card-description">At <?php echo COMPANY_NAME; ?>, our mission is to become a leading
                     provider of great culinary delights, support and care.</p>
                 <div class="button_reveal-in_card">
                     <button class="button" data-open="popup-hseq_safety">Read More</button>

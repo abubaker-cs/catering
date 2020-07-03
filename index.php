@@ -1,5 +1,5 @@
 <?php
-    define("COMPANY_NAME", "Lamasat for Catering Services");
+    define("COMPANY_NAME", "Lamasat elKheir for Catering Services");
 ?>
 
 
