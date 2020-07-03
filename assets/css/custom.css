@@ -1,0 +1,86 @@
+body {
+  background-color: #f7e4e1;
+}
+
+.sec-container {
+  padding: 8rem 0;
+}
+
+.block-intro {
+  margin-bottom: 2rem;
+}
+.block-intro .section-heading,
+.block-intro .section-description {
+  text-align: center;
+}
+
+.block-closing-only_button {
+  padding: 1rem 0;
+}
+
+.block-closing-with_text {
+  padding: 3.5rem 0;
+}
+
+.button_reveal {
+  text-align: center;
+}
+.button_reveal .button {
+  margin-bottom: 0;
+}
+
+.head-container {
+  background-color: #0c3d5d;
+  padding: 2rem;
+  color: white;
+}
+
+.hero-container {
+  background-color: #3adb76;
+  padding: 16rem 0;
+}
+
+.footer-container {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 4rem 0;
+}
+
+.bg-red {
+  color: white;
+  background-color: red;
+}
+
+.bg-black {
+  color: white;
+  background-color: black;
+}
+
+.card-title,
+.card-description {
+  text-align: left !important;
+}
+
+#sec-about img,
+#sec-services img {
+  border-radius: 1rem;
+}
+#sec-about h4, #sec-about p,
+#sec-services h4,
+#sec-services p {
+  text-align: center;
+}
+
+#sec-services .cell {
+  background-color: white;
+  padding: 0.9rem;
+}
+#sec-services .button_reveal-in_card {
+  text-align: left;
+}
+#sec-different .block-intro {
+  margin-bottom: 0;
+}
+#sec-different p {
+  margin-bottom: 0;
+}

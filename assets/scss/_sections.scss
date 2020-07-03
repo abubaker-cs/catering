@@ -1,0 +1,38 @@
+#sec-about,
+#sec-services{
+  img{
+    border-radius: 1rem;
+  }
+
+  h4, p{
+    text-align: center;
+  }
+}
+
+#sec-services{
+
+  .cell{
+    background-color: white;
+    padding: .9rem;
+  }
+
+  .button_reveal-in_card{
+    text-align: left;
+  }
+
+  p{
+  }
+
+}
+
+#sec-different{
+  // Section: Being Different
+
+  .block-intro {
+    margin-bottom: 0;
+  }
+
+  p{
+    margin-bottom: 0;
+  }
+}
