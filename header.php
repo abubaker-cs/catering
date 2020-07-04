@@ -18,6 +18,12 @@
     <!-- Hover.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" media="all">
 
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="assets/plugins/owl_carousel/owl-carousel/owl.carousel.css">
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="assets/plugins/owl_carousel/owl-carousel/owl.theme.css">
+
     <!--  Custom Styles -->
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>

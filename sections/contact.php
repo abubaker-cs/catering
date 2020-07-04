@@ -4,6 +4,8 @@
 </div>
 
 <div id="sec-contact" class="sec-contact-container">
+
+
     <div class="grid-container">
 
         <section class="block-intro">
