@@ -54,6 +54,9 @@
   text-align: left !important;
 }
 
+#sec-head .top-bar {
+  padding: 0;
+}
 #sec-head .menu {
   background: #333;
 }
