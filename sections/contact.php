@@ -62,7 +62,7 @@
 
     <section class="contact_map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.8385607169757!2d20.11336909210705!3d32.07438284831972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13831c99a090a9d7%3A0xe2b6953cdeb9b332!2sBohdema%2C%20Benghazi%2C%20Libya!5e0!3m2!1sen!2s!4v1574796488947!5m2!1sen!2s"
-                    width="1100" height="256" style="border:0" allowfullscreen></iframe>
+                    width="1400" height="400" style="border:0" allowfullscreen></iframe>
     </section>
 
     <div class="grid-container">
