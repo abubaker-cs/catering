@@ -39,12 +39,6 @@
   background-color: #3adb76;
 }
 
-.footer-container {
-  background-color: #0a0a0a;
-  color: white;
-  padding: 0.4rem 0;
-}
-
 .bg-red {
   color: white;
   background-color: red;
@@ -129,6 +123,47 @@
 /*==============================
 =            Footer            =
 ==============================*/
+#sec-foot {
+  background-color: #000;
+  color: white;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+#sec-foot p {
+  margin: 0;
+  font-size: 13px;
+}
+#sec-foot .footer_info {
+  color: white;
+}
+#sec-foot .footer_info a {
+  color: gold;
+  font-weight: bold;
+}
+#sec-foot .footer_info a:hover {
+  color: white;
+  font-style: italic;
+  text-decoration: underline;
+}
+#sec-foot .developer {
+  text-align: right;
+}
+
+.footer_top {
+  text-align: center;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: #f1f1f1;
+}
+.footer_top a {
+  color: black;
+  font-size: 1rem;
+}
+/* Small only */
+/* Medium and up */
+/* Medium only */
+/* Large and up */
+/* Large only */
 /*===============================
 =            Divider            =
 ===============================*/

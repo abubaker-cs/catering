@@ -172,5 +172,72 @@
 =            Footer            =
 ==============================*/
 #sec-foot{
+  background-color: #000;
+  color: white;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  //background-color: black;
+
+  p{
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .footer_info{
+    color: white;
+
+    a{
+      color: gold;
+      font-weight: bold;
+    }
+
+    a:hover{
+      color: white;
+      font-style: italic;
+      text-decoration: underline;
+    }
+  }
+
+  .developer{
+    text-align: right;
+  }
 
 }
+
+.footer_top{
+  // background: white url('../images/patterns/cartographer_white.jpg') repeat;
+  // background: $color-secondary url('../images/patterns/dark_mosaic_red.png') repeat;
+  text-align: center;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  background-color: #f1f1f1;
+
+  a{
+    color: black;
+    font-size: 1rem;
+  }
+
+  a:hover{
+
+  }
+
+  i{
+
+  }
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
