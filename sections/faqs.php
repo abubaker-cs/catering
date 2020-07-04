@@ -1,9 +1,15 @@
-<!-- Divider: -->
-<div id="sec-divider">
+<!--=====================================================
+= Divider: FAQs
+======================================================-->
+<section id="sec-divider">
+    <img data-interchange="[images/dividers/faqs/div_small.jpg, small],
+                           [images/dividers/faqs/div_medium.jpg, medium],
+                           [images/dividers/faqs/div_large.jpg, large]">
+</section>
 
-</div>
-
-<!-- -->
+<!--=====================================================
+= Content: FAQs
+======================================================-->
 <div id="sec-faqs" class="sec-container">
     <div class="grid-container">
 

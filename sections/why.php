@@ -1,9 +1,15 @@
-<!-- Divider: -->
-<div id="sec-divider">
+<!--=====================================================
+= Divider: Why us?
+======================================================-->
+<section id="sec-divider">
+    <img data-interchange="[images/dividers/why_us/div_small.jpg, small],
+                           [images/dividers/why_us/div_medium.jpg, medium],
+                           [images/dividers/why_us/div_large.jpg, large]">
+</section>
 
-</div>
-
-<!-- -->
+<!--=====================================================
+= Content: Why us?
+======================================================-->
 <div id="sec-why" class="sec-container">
     <div class="grid-container">
 
