@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: HSEQ
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-hseq" class="sec-divider">
     <img data-interchange="[images/dividers/hseq/div_small.jpg, small],
                            [images/dividers/hseq/div_medium.jpg, medium],
                            [images/dividers/hseq/div_large.jpg, large]">

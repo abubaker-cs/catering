@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: Being Different
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-different" class="sec-divider">
     <img data-interchange="[images/dividers/being_different/div_small.jpg, small],
                            [images/dividers/being_different/div_medium.jpg, medium],
                            [images/dividers/being_different/div_large.jpg, large]">

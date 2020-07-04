@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: Why us?
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-why" class="sec-divider">
     <img data-interchange="[images/dividers/why_us/div_small.jpg, small],
                            [images/dividers/why_us/div_medium.jpg, medium],
                            [images/dividers/why_us/div_large.jpg, large]">

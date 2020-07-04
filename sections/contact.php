@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: Contact us
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-contact" class="sec-divider">
     <img data-interchange="[images/dividers/contact/div_small.jpg, small],
                            [images/dividers/contact/div_medium.jpg, medium],
                            [images/dividers/contact/div_large.jpg, large]">

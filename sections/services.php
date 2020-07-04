@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: Our Services
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-services" class="sec-divider">
     <img data-interchange="[images/dividers/services/div_small.jpg, small],
                            [images/dividers/services/div_medium.jpg, medium],
                            [images/dividers/services/div_large.jpg, large]">

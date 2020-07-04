@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: Message from CEO
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-ceo" class="sec-divider">
     <img data-interchange="[images/dividers/ceo/div_small.jpg, small],
                            [images/dividers/ceo/div_medium.jpg, medium],
                            [images/dividers/ceo/div_large.jpg, large]">

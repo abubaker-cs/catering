@@ -54,6 +54,19 @@
   text-align: left !important;
 }
 
+#sec-head .menu {
+  background: #333;
+}
+#sec-head .menu li {
+  background: #333;
+}
+#sec-head .menu li:hover {
+  background: #4d4d4d;
+}
+#sec-head .menu a {
+  color: #fff;
+}
+
 #sec-about img,
 #sec-services img {
   border-radius: 1rem;
@@ -213,6 +226,6 @@
 /*===============================
 =            Divider            =
 ===============================*/
-#sec-divider img {
+.sec-divider img {
   width: 100%;
 }

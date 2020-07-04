@@ -1,7 +1,7 @@
 <!--=====================================================
 = Divider: FAQs
 ======================================================-->
-<section id="sec-divider">
+<section id="divider-faqs" class="sec-divider">
     <img data-interchange="[images/dividers/faqs/div_small.jpg, small],
                            [images/dividers/faqs/div_medium.jpg, medium],
                            [images/dividers/faqs/div_large.jpg, large]">

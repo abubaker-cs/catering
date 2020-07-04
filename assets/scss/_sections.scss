@@ -1,3 +1,26 @@
+#sec-head{
+
+  .menu{
+    background: #333;
+
+    li{
+      background: #333;
+
+      &:hover{
+        background: lighten(#333, 10%);
+      }
+    }
+
+    a{
+      color: #fff;
+    }
+
+  }
+
+
+
+}
+
 #sec-hero{
   //position: relative;
   //// height: 95vh;
