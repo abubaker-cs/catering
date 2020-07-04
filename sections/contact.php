@@ -132,6 +132,6 @@
     <!-- row columns base -->
 
 
-    <img class="footer_topper" src="images/footer-art-blue.svg" alt="Footer Topper">
+    <img class="footer_topper" src="images/footer-art-black.svg" alt="Footer Topper">
 </div><!-- /#sec-contact .sec-container -->
 
