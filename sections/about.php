@@ -12,7 +12,7 @@
 
             <!-- Cell 1 -->
             <div class="cell">
-                <img src="images/statements/vision.jpg" alt="Our vision" class="thumbnail">
+                <img src="images/sections/statements/vision.jpg" alt="Our vision" class="thumbnail">
                 <h4>Vision</h4>
                 <p>To provide world class corporate catering and related services to the local and multinational
                     companies operating in Libya.</p>
@@ -20,7 +20,7 @@
 
             <!-- Cell 2 -->
             <div class="cell">
-                <img src="images/statements/mission.jpg" alt="Our Mission" class="thumbnail">
+                <img src="images/sections/statements/mission.jpg" alt="Our Mission" class="thumbnail">
                 <h4>Mission</h4>
                 <p>At <?php echo COMPANY_NAME; ?>, our mission is to become a leading provider of great culinary
                     delights, support and care.</p>
@@ -28,7 +28,7 @@
 
             <!-- Cell 3 -->
             <div class="cell">
-                <img src="images/statements/objectives.jpg" alt="Our Objectives" class="thumbnail">
+                <img src="images/sections/statements/objectives.jpg" alt="Our Objectives" class="thumbnail">
                 <h4>Objectives</h4>
                 <p>Deliver a consistently great service where customer needs are met at the highest standard. Building
                     long term professional partnerships</p>
@@ -36,7 +36,7 @@
 
             <!-- Cell 3 -->
             <div class="cell">
-                <img src="images/statements/values.jpg" alt="Our Values" class="thumbnail">
+                <img src="images/sections/statements/values.jpg" alt="Our Values" class="thumbnail">
                 <h4>Values</h4>
                 <p>We constantly review all our operationas to help our customers save costs and improve our own
                     profitability and sustainability.</p>
@@ -57,7 +57,7 @@
                 </button>
 
                 <h3>About us</h3>
-                <img src="images/statements/statements_popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/statements/statements_popup.jpg" alt="" class="thumbnail">
                 <p class="lead">Empowered with highly Experienced and Dedicated Employees, <?php echo COMPANY_NAME; ?>
                     is capable enough to manage any type of corporate catering order. To ensure
                     that, <?php echo COMPANY_NAME; ?> uses the finest quality

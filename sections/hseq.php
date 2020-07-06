@@ -29,7 +29,7 @@
 
             <!-- Cell 1 -->
             <div class="cell">
-                <img src="images/statements/vision.jpg" alt="Health Policies" class="thumbnail">
+                <img src="images/sections/hseq/hseq_01.jpg" alt="Health Policies" class="thumbnail">
                 <h4 class="card-title">Health</h4>
                 <p class="card-description">To provide world class corporate catering and related services to the local
                     and multinational companies operating in Libya.</p>
@@ -40,7 +40,7 @@
 
             <!-- Cell 2 -->
             <div class="cell">
-                <img src="images/statements/mission.jpg" alt="Safety Policies" class="thumbnail">
+                <img src="images/sections/hseq/hseq_02.jpg" alt="Safety Policies" class="thumbnail">
                 <h4 class="card-title">Safety</h4>
                 <p class="card-description">At <?php echo COMPANY_NAME; ?>, our mission is to become a leading
                     provider of great culinary delights, support and care.</p>
@@ -51,7 +51,7 @@
 
             <!-- Cell 3 -->
             <div class="cell">
-                <img src="images/statements/objectives.jpg" alt="Environmental Policies" class="thumbnail">
+                <img src="images/sections/hseq/hseq_03.jpg" alt="Environmental Policies" class="thumbnail">
                 <h4 class="card-title">Environment</h4>
                 <p class="card-description">Deliver a consistently great service where customer needs are met at the
                     highest standard. Building long term partnerships</p>
@@ -62,7 +62,7 @@
 
             <!-- Cell 4 -->
             <div class="cell">
-                <img src="images/statements/objectives.jpg" alt="Quality Policies" class="thumbnail">
+                <img src="images/sections/hseq/hseq_04.jpg" alt="Quality Policies" class="thumbnail">
                 <h4 class="card-title">Quality</h4>
                 <p class="card-description">Deliver a consistently great service where customer needs are met at the
                     highest standard. Building long term partnerships</p>
@@ -86,7 +86,7 @@
                 </button>
 
                 <h3>Health Policies</h3>
-                <img src="images/services/service_03-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/hseq/hseq_01-popup.jpg" alt="" class="thumbnail">
                 <ul>
                     <li>Accountability, displayed by each employee by complying with applicable health regulations.</li>
                     <li>It is the policy of Lamasat elKheir for Catering Services to conduct its operations in a
@@ -112,7 +112,7 @@
                 </button>
 
                 <h3>Safety Policies</h3>
-                <img src="images/services/service_03-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/hseq/hseq_02-popup.jpg" alt="" class="thumbnail">
                 <p>Our goal is to take care of your people, so that you can take care of business. At Lamasat elKheir
                     for Catering Services, we do this with passion and enthusiasm to deliver high standards in every
                     aspect of our service proposition.</p>
@@ -148,7 +148,7 @@
                 </button>
 
                 <h3>Quality Policies</h3>
-                <img src="images/services/service_03-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/hseq/hseq_03-popup.jpg" alt="" class="thumbnail">
                 <ul>
                     <li>Every aspect of our food production and hygiene process at Lamasat elKheir for Catering Services
                         is governed by defining principles. Our team of food safety specialists manage and ensure that
@@ -188,7 +188,7 @@
                 </button>
 
                 <h3>Environmental Policies</h3>
-                <img src="images/services/service_03-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/hseq/hseq_04-popup.jpg" alt="" class="thumbnail">
                 <ul>
                     <li>Excellence, advanced through genuine care and compassion for our fellow humans and the
                         environment leading to a strong Safety culture.

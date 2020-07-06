@@ -16,11 +16,11 @@
         <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-1 large-up-2">
 
             <div class="cell show-for-small-only">
-                <img src="images/sections/ceo.jpg" alt="Message from CEO" class="thumbnail">
+                <img src="images/sections/ceo/ceo.jpg" alt="Message from CEO" class="thumbnail">
             </div>
 
             <div class="cell show-for-large">
-                <img src="images/sections/ceo.jpg" alt="Message from CEO" class="thumbnail">
+                <img src="images/sections/ceo/ceo.jpg" alt="Message from CEO" class="thumbnail">
             </div>
 
             <div class="cell">
@@ -45,7 +45,7 @@
                     </button>
 
                     <h3>Message from CEO</h3>
-                    <img src="images/sections/ceo_message-popup.jpg" alt="" class="thumbnail">
+                    <img src="images/sections/ceo/ceo_message-popup.jpg" alt="" class="thumbnail">
                     <p class="subtitle">We offer commitment, leadership, quality culture and custom solutions.</p>
 
                     <p>Based in Benghazi, Libya <?php echo COMPANY_NAME; ?>’ reputation for delivering safe and high

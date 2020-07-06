@@ -33,7 +33,7 @@
                 </button>
 
                 <h3>Being different</h3>
-                <img src="images/sections/safety_rules-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/different/different-popup.jpg" alt="" class="thumbnail">
                 <p>At <?php echo COMPANY_NAME; ?> our objective is always to deliver customer satisfaction whilst
                     participating in Clients’ target achievements. <?php echo COMPANY_NAME; ?> is in the business of
                     satisfying client's needs with single, unified, all-inclusive complete corporate catering service
