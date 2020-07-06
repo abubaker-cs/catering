@@ -148,7 +148,7 @@
                 </button>
 
                 <h3>Quality Policies</h3>
-                <img src="images/sections/hseq/hseq_03-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/hseq/hseq_04-popup.jpg" alt="" class="thumbnail">
                 <ul>
                     <li>Every aspect of our food production and hygiene process at Lamasat elKheir for Catering Services
                         is governed by defining principles. Our team of food safety specialists manage and ensure that
@@ -188,7 +188,7 @@
                 </button>
 
                 <h3>Environmental Policies</h3>
-                <img src="images/sections/hseq/hseq_04-popup.jpg" alt="" class="thumbnail">
+                <img src="images/sections/hseq/hseq_03-popup.jpg" alt="" class="thumbnail">
                 <ul>
                     <li>Excellence, advanced through genuine care and compassion for our fellow humans and the
                         environment leading to a strong Safety culture.
