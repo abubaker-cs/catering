@@ -16,7 +16,7 @@
         <div class="grid-x grid-margin-x grid-margin-y small-up-1 medium-up-1 large-up-2">
 
             <div class="cell show-for-small-only">
-                <img src="images/sections/ceo.jpg" alt="Why us?" class="thumbnail">
+                <img src="images/sections/why_us.jpg" alt="Why us?" class="thumbnail">
             </div>
 
             <div class="cell">
@@ -36,7 +36,7 @@
                     </button>
 
                     <h3>Why us?</h3>
-                    <img src="images/sections/integrated-approach-popup.jpg" alt="" class="thumbnail">
+                    <img src="images/sections/why_us-popup.jpg" alt="Why us?" class="thumbnail">
                     <p>In today’s fast moving onshore and offshore environments, you need reliable and experienced caterers, who adhere to international health and safety regulations, to provide healthy meals, which will ensure continuous productivity. Lamasat
                         elKheir for Catering Services is driven to integrate its core values into every aspect of its business. You can be rest assured that as a business we are committed to aiding you with the competitive solutions. You are at the end of
                         the day assured genuine care backed by vast experience of <?php echo COMPANY_NAME; ?>.</p>
@@ -65,7 +65,7 @@
             </div>
 
             <div class="cell show-for-large">
-                <img src="images/sections/ceo.jpg" alt="Why us?" class="thumbnail">
+                <img src="images/sections/why_us.jpg" alt="Why us?" class="thumbnail">
             </div>
 
 

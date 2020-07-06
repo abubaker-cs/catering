@@ -25,7 +25,7 @@
 
             <!-- Cell 1 -->
             <div class="cell">
-                <img src="images/statements/vision.jpg" alt="Menu Planning" class="thumbnail">
+                <img src="images/services/menu.jpg" alt="Menu Planning" class="thumbnail">
                 <h4 class="card-title">Menu Planning</h4>
                 <p class="card-description">To provide world class corporate catering and related services to the local
                     and multinational companies operating in Libya.</p>
@@ -36,7 +36,7 @@
 
             <!-- Cell 2 -->
             <div class="cell">
-                <img src="images/statements/mission.jpg" alt="Corporate Catering" class="thumbnail">
+                <img src="images/services/corporate.jpg" alt="Corporate Catering" class="thumbnail">
                 <h4 class="card-title">Corporate Catering</h4>
                 <p class="card-description">At <?php echo COMPANY_NAME; ?>, our mission is to become a leading
                     provider of great culinary delights, support and care.</p>
@@ -47,7 +47,7 @@
 
             <!-- Cell 3 -->
             <div class="cell">
-                <img src="images/statements/objectives.jpg" alt="Remote Catering" class="thumbnail">
+                <img src="images/services/remote.jpg" alt="Remote Catering" class="thumbnail">
                 <h4 class="card-title">Remote Catering</h4>
                 <p class="card-description">Deliver a consistently great service where customer needs are met at the
                     highest standard. Building long term partnerships</p>
@@ -71,7 +71,7 @@
                 </button>
 
                 <h3>Menu Planning</h3>
-                <img src="images/services/service_01-popup.jpg" alt="" class="thumbnail">
+                <img src="images/services/menu-popup.jpg" alt="" class="thumbnail">
 
                 <p>At Lamasat elKheir for Catering Services our executive team and culinary professionals work closely
                     with you to develop a tailored solution that meets your specific needs and exceeds the expectations
@@ -104,7 +104,7 @@
                 </button>
 
                 <h3>Corporate Catering</h3>
-                <img src="images/services/service_02-popup.jpg" alt="" class="thumbnail">
+                <img src="images/services/corporate-popup.jpg" alt="" class="thumbnail">
                 <p>When it comes to feeding your teams in Libyan Oil and Gas Industries, you will need a specialized
                     caterer whom you can trust to do the right job and deliver value. That’s where Lamasat elKheir for
                     Catering Services comes in, offering
@@ -147,7 +147,7 @@
                 </button>
 
                 <h3>Onshore & Offshore Catering</h3>
-                <img src="images/services/service_03-popup.jpg" alt="" class="thumbnail">
+                <img src="images/services/remote-popup.jpg" alt="" class="thumbnail">
                 <p>Sourcing quality meals for your crews operating in remote locations inside Libyan Oil and Gas
                     Industries can be a real challenge. You need a competent and competitive corporate catering company
                     that understands the importance of
@@ -207,7 +207,7 @@
                 </button>
 
                 <h3>Our Services</h3>
-                <img src="images/statements/statements_popup.jpg" alt="" class="thumbnail">
+                <img src="images/services/services-popup.jpg" alt="Our Services" class="thumbnail">
                 <p>At <?php echo COMPANY_NAME; ?>, we are specialized in providing corporate catering services
                     for crews on rig sites. Our catering staff have years of experience, working in the Libyan Oil and
                     Gas industries. Using
