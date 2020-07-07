@@ -1,7 +1,7 @@
 <div id="sec-head">
 
     <div id="branding" class="head-container text-center">
-        LOGO
+        Lamasat's Logo
     </div>
 
     <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">

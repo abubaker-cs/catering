@@ -1,3 +1,5 @@
+@import "typography";
+
 body{
   // background-color: #f7e4e1;
 }
@@ -41,9 +43,9 @@ body{
 }
 
 .head-container{
-  background-color: #0c3d5d;
+  background-color: white;
   padding: 2rem;
-  color: white;
+  color: black;
 }
 
 .hero-container{
@@ -79,6 +81,51 @@ body{
 }
 
 .reveal{
+  border: 12px groove rgb(240, 214, 187);
+  padding: 1.5rem;
+
+  h2, h3, h4{
+    color: rgb(240, 214, 187);
+  }
+
+  h4{
+    margin-bottom: 0;
+  }
+
+  ul{
+    margin-left: 2.25rem;
+  }
+
+  .lead{
+    color: rgb(240, 214, 187);
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.25rem;
+  }
+
+  background: #002366;
+  color: #fff;
+
+  .ceo-name {
+    color: rgb(240, 214, 187);
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .ceo-position {
+
+  }
+
+  p ~ ul{
+
+  }
+
+  img{
+    // border-radius: 1rem;
+  }
 }
 
 

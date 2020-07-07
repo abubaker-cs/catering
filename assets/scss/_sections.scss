@@ -4,14 +4,23 @@
     padding: 0;
   }
 
+  .title-bar{
+    background: darken(#002366, 10%);
+  }
+
   .menu{
-    background: #333;
+    background: #002366;
 
     li{
-      background: #333;
+       background: #002366;
 
-      &:hover{
-        background: lighten(#333, 10%);
+       padding-top: .2rem;
+       padding-bottom: .2rem;
+
+      &:hover,
+      &:focus{
+        // background: lighten(#002366, 10%)
+        background-color: #d4a762;
       }
     }
 
@@ -35,123 +44,73 @@
   // clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 }
 
+// THEME
+#sec-about, #sec-services, #sec-hseq, #sec-faqs{
+  background-color: #FFFCF8;
+  color: #777777;
 
-#sec-about,
-#sec-services{
-  img{
-    border-radius: 1rem;
+  h2{
+    color: #002366;
   }
 
-  h4, p{
-    text-align: center;
+  h4{
+    color: #d4a762;
   }
+
+  .button{
+    background-color: #002366;
+    color: white;
+  }
+
+  .button:hover{
+    // background-color: #161d27;
+    background-color: #d4a762;
+    color: white;
+  }
+
 }
 
-// About
-#sec-about {
-  background-color: #f1f1f1;
-}
+#sec-ceo, #sec-why, #sec-different{
+  // background-color: rgb(53,53,53);
+  background-color: #002366;
+  color: #fff;
 
-// Message from CEO
-#sec-ceo{
-
-  //position: relative;
-  //// height: 95vh;
-  //background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
-  //background-position: top;
-  //background-size: cover;
-  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  //clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-
-  .ceo-name {
-
+  h2, h4{
+    color: rgb(240, 214, 187);
   }
 
-  .ceo-position {
-
-  }
-}
-
-// Our Services
-#sec-services{
-  background-color: #f1f1f1;
-
-  .cell{
+  .button{
+    color: rgb(53,53,53);
     background-color: white;
-    padding: .9rem;
+
   }
 
-  .button_reveal-in_card{
-    text-align: left;
-  }
-
-  p{
-  }
-
-}
-
-// Why us?
-#sec-why{
-  //position: relative;
-  //// height: 95vh;
-  //background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
-  //background-position: top;
-  //background-size: cover;
-  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-  //clip-path: polygon(0 10%, 100% 0, 100% 85%, 0 100%);
-  //background-color: red !important;
-}
-
-// HSEQ
-#sec-hseq{
-  background-color: #f1f1f1;
-
-  .block-closing-with_text{
-    padding: 3.5rem 3.5rem;
-    text-align: center;
-  }
-
-}
-
-// Being Different
-#sec-different{
-  // Section: Being Different
-
-  .block-intro {
-    margin-bottom: 0;
-  }
-
-  p{
-    margin-bottom: 0;
+  .button:hover{
+    background-color: rgb(240, 214, 187);
+    color: rgb(53,53,53);
+    font-weight: bold;
   }
 }
 
-// FAQs
-#sec-faqs {
-  background-color: #f1f1f1;
-
-  .accordion{
-    .accordion-item{
-      a{}
-      a:hover{
-        background-color: #0c3d5d;
-        color: white;
-      }
-    }
-
-    .accordion-title{}
-
-    .accordion-content{
-      // background-color: darkslategrey;
-      // color: #f1f1f1;
-    }
-  }
-
-}
-
-// Contact
 #sec-contact{
+  background-color: #002366;
+  color: #fff;
 
+  h2, h3, h4{
+    color: rgb(240, 214, 187);
+  }
+
+  .button{
+    color: rgb(53,53,53);
+    background-color: white;
+
+  }
+
+  .button:hover{
+    background-color: rgb(240, 214, 187);
+    color: rgb(53,53,53);
+    font-weight: bold;
+  }
 
   .contact_map{
     margin: 2.5rem auto 2rem auto;
@@ -170,7 +129,7 @@
   }
 
   .branch-name {
-
+    color: rgb(240, 214, 187);
   }
 
   .person-name {
@@ -178,7 +137,7 @@
   }
 
   .person-position {
-
+    color: rgb(240, 214, 187);
   }
 
   .footer_topper{
@@ -191,16 +150,165 @@
 
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+
+    opacity: .15;
+  }
+
+  svg{
+    color: rgb(240, 214, 187);
+  }
+
+  a{
+    color: rgb(240, 214, 187);
+  }
+
+  a:hover{
+    color: white;
+  }
+}
+
+
+#sec-about,
+#sec-services{
+  img{
+    border-radius: 1rem;
+  }
+
+  h4, p{
+    text-align: center;
+  }
+}
+
+// About
+#sec-about {
+
+}
+
+// Message from CEO
+#sec-ceo{
+
+
+  // Text color: RGB(240, 214, 187)
+  // Background color: RGB(53, 53, 53)
+  // Additional color(s): RGB(160, 138, 127)
+
+  //position: relative;
+  //// height: 95vh;
+  //background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  //background-position: top;
+  //background-size: cover;
+  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  //clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+
+  .ceo-name {
+
+  }
+
+  .ceo-position {
+
+  }
+
+
+}
+
+// Our Services
+#sec-services{
+
+  .cell{
+    //background-color: white;
+    //padding: .9rem;
+  }
+
+  .button_reveal-in_card{
+    text-align: left;
+  }
+
+
+
+}
+
+// Why us?
+#sec-why{
+  //position: relative;
+  //// height: 95vh;
+  //background-image: linear-gradient(to bottom right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  //background-position: top;
+  //background-size: cover;
+  //-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  //clip-path: polygon(0 10%, 100% 0, 100% 85%, 0 100%);
+  //background-color: red !important;
+}
+
+// HSEQ
+#sec-hseq{
+
+  .block-closing-with_text{
+    padding: 3.5rem 3.5rem;
+    text-align: center;
   }
 
 }
+
+// Being Different
+#sec-different{
+
+  .block-intro {
+    margin-bottom: 0;
+  }
+
+  p{
+    margin-bottom: 0;
+  }
+
+}
+
+// FAQs
+#sec-faqs {
+
+  .accordion{
+    .accordion-item{
+
+
+      a{
+        line-height: normal;
+        color: #002366;
+        font-size: 1.15rem;
+      }
+      a:hover,
+      a:focus{
+        background-color: #002366;
+        color: white;
+      }
+
+    }
+
+    .is-active{
+      background-color: #002366;
+      a{
+        color: white;
+      }
+    }
+
+    .accordion-title{}
+
+    .accordion-content{
+      // background-color: darkslategrey;
+      // color: #f1f1f1;
+    }
+  }
+
+}
+
 
 /*==============================
 =            Footer            =
 ==============================*/
 #sec-foot{
-  background-color: #000;
+  background-color: darken(#002366, 10%);
+
   color: white;
+
+
   padding-top: .6rem;
   padding-bottom: .6rem;
   //background-color: black;
@@ -214,7 +322,7 @@
     color: white;
 
     a{
-      color: gold;
+      color: rgb(240, 214, 187);
       font-weight: bold;
     }
 
@@ -289,12 +397,12 @@
   background-color: #f1f1f1;
 
   a{
-    color: black;
+    color: #002366;
     font-size: 1rem;
   }
 
   a:hover{
-
+    color: maroon;
   }
 
   i{

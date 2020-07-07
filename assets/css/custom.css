@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p, ol, ul, li, span, button, a {
+  font-family: "Fira Sans", sans-serif;
+}
+
 .sec-container {
   padding: 8rem 0;
 }
@@ -30,9 +42,9 @@
 }
 
 .head-container {
-  background-color: #0c3d5d;
+  background-color: white;
   padding: 2rem;
-  color: white;
+  color: black;
 }
 
 .hero-container {
@@ -54,67 +66,107 @@
   text-align: left !important;
 }
 
+.reveal {
+  border: 12px groove #f0d6bb;
+  padding: 1.5rem;
+  background: #002366;
+  color: #fff;
+}
+.reveal h2, .reveal h3, .reveal h4 {
+  color: #f0d6bb;
+}
+.reveal h4 {
+  margin-bottom: 0;
+}
+.reveal ul {
+  margin-left: 2.25rem;
+}
+.reveal .lead {
+  color: #f0d6bb;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+.reveal .ceo-name {
+  color: #f0d6bb;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
 #sec-head .top-bar {
   padding: 0;
 }
+#sec-head .title-bar {
+  background: #001233;
+}
 #sec-head .menu {
-  background: #333;
+  background: #002366;
 }
 #sec-head .menu li {
-  background: #333;
+  background: #002366;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
 }
-#sec-head .menu li:hover {
-  background: #4d4d4d;
+#sec-head .menu li:hover, #sec-head .menu li:focus {
+  background-color: #d4a762;
 }
 #sec-head .menu a {
   color: #fff;
 }
 
-#sec-about img,
-#sec-services img {
-  border-radius: 1rem;
+#sec-about, #sec-services, #sec-hseq, #sec-faqs {
+  background-color: #FFFCF8;
+  color: #777777;
 }
-#sec-about h4, #sec-about p,
-#sec-services h4,
-#sec-services p {
-  text-align: center;
+#sec-about h2, #sec-services h2, #sec-hseq h2, #sec-faqs h2 {
+  color: #002366;
 }
-
-#sec-about {
-  background-color: #f1f1f1;
+#sec-about h4, #sec-services h4, #sec-hseq h4, #sec-faqs h4 {
+  color: #d4a762;
 }
-
-#sec-services {
-  background-color: #f1f1f1;
-}
-#sec-services .cell {
-  background-color: white;
-  padding: 0.9rem;
-}
-#sec-services .button_reveal-in_card {
-  text-align: left;
-}
-#sec-hseq {
-  background-color: #f1f1f1;
-}
-#sec-hseq .block-closing-with_text {
-  padding: 3.5rem 3.5rem;
-  text-align: center;
-}
-
-#sec-different .block-intro {
-  margin-bottom: 0;
-}
-#sec-different p {
-  margin-bottom: 0;
-}
-
-#sec-faqs {
-  background-color: #f1f1f1;
-}
-#sec-faqs .accordion .accordion-item a:hover {
-  background-color: #0c3d5d;
+#sec-about .button, #sec-services .button, #sec-hseq .button, #sec-faqs .button {
+  background-color: #002366;
   color: white;
+}
+#sec-about .button:hover, #sec-services .button:hover, #sec-hseq .button:hover, #sec-faqs .button:hover {
+  background-color: #d4a762;
+  color: white;
+}
+
+#sec-ceo, #sec-why, #sec-different {
+  background-color: #002366;
+  color: #fff;
+}
+#sec-ceo h2, #sec-ceo h4, #sec-why h2, #sec-why h4, #sec-different h2, #sec-different h4 {
+  color: #f0d6bb;
+}
+#sec-ceo .button, #sec-why .button, #sec-different .button {
+  color: #353535;
+  background-color: white;
+}
+#sec-ceo .button:hover, #sec-why .button:hover, #sec-different .button:hover {
+  background-color: #f0d6bb;
+  color: #353535;
+  font-weight: bold;
+}
+
+#sec-contact {
+  background-color: #002366;
+  color: #fff;
+}
+#sec-contact h2, #sec-contact h3, #sec-contact h4 {
+  color: #f0d6bb;
+}
+#sec-contact .button {
+  color: #353535;
+  background-color: white;
+}
+#sec-contact .button:hover {
+  background-color: #f0d6bb;
+  color: #353535;
+  font-weight: bold;
 }
 #sec-contact .contact_map {
   margin: 2.5rem auto 2rem auto;
@@ -127,6 +179,12 @@
   margin-bottom: 1.5rem;
   text-align: center;
 }
+#sec-contact .branch-name {
+  color: #f0d6bb;
+}
+#sec-contact .person-position {
+  color: #f0d6bb;
+}
 #sec-contact .footer_topper {
   display: block;
   margin-left: auto;
@@ -134,13 +192,65 @@
   margin-top: 0;
   width: 100%;
   transform: scaleX(-1);
+  opacity: 0.15;
+}
+#sec-contact svg {
+  color: #f0d6bb;
+}
+#sec-contact a {
+  color: #f0d6bb;
+}
+#sec-contact a:hover {
+  color: white;
 }
 
+#sec-about img,
+#sec-services img {
+  border-radius: 1rem;
+}
+#sec-about h4, #sec-about p,
+#sec-services h4,
+#sec-services p {
+  text-align: center;
+}
+
+#sec-services .button_reveal-in_card {
+  text-align: left;
+}
+
+#sec-hseq .block-closing-with_text {
+  padding: 3.5rem 3.5rem;
+  text-align: center;
+}
+
+#sec-different .block-intro {
+  margin-bottom: 0;
+}
+#sec-different p {
+  margin-bottom: 0;
+}
+
+#sec-faqs .accordion .accordion-item a {
+  line-height: normal;
+  color: #002366;
+  font-size: 1.15rem;
+}
+#sec-faqs .accordion .accordion-item a:hover,
+#sec-faqs .accordion .accordion-item a:focus {
+  background-color: #002366;
+  color: white;
+}
+#sec-faqs .accordion .is-active {
+  background-color: #002366;
+}
+#sec-faqs .accordion .is-active a {
+  color: white;
+}
 /*==============================
 =            Footer            =
 ==============================*/
 #sec-foot {
-  background-color: #000;
+  background-color: #001233;
   color: white;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
@@ -153,7 +263,7 @@
   color: white;
 }
 #sec-foot .footer_info a {
-  color: gold;
+  color: #f0d6bb;
   font-weight: bold;
 }
 #sec-foot .footer_info a:hover {
@@ -218,8 +328,11 @@
   background-color: #f1f1f1;
 }
 .footer_top a {
-  color: black;
+  color: #002366;
   font-size: 1rem;
+}
+.footer_top a:hover {
+  color: maroon;
 }
 /* Small only */
 /* Medium and up */
